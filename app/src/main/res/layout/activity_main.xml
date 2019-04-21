@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f7e91f"
+    tools:context="com.example.bahadur.countryprofile.MainActivity">
+
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdid"
+        android:text="BanGladesh"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#37e4cd"
+        android:drawableLeft="@drawable/bangladesh_icon"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="#37e4cd"
+        android:layout_height="wrap_content"
+        android:id="@+id/pkid"
+        android:text="Pakistan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/pakistan_icon"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="#37e4cd"
+        android:layout_height="wrap_content"
+        android:id="@+id/inid"
+        android:text="India"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/india_icon"
+        />
+
+
+
+
+</LinearLayout>
